@@ -1,0 +1,158 @@
+body{
+	height:100%;
+	width:100%;
+	margin:auto;
+	margin:0;
+	background: url(island.jpg) ;
+	display:table;
+	top:0;
+	background-position: center;
+	background-size:cover;
+	background-attachment:fixed;
+}
+
+
+.content{
+	text-align: center;
+}
+ ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgb(216,0,21);
+        position: fixed;
+        width: 100%;
+
+    }
+
+    li.b{
+      float: left;
+    }
+
+    li {
+        float: right;
+       
+       
+    }
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 27px 16px;
+        text-decoration: none;
+    }
+
+    li a:hover{
+        color: red;
+    }
+
+    li a{
+      font-size: 20px; 
+    }
+
+    li a.sansserif{
+      font-family: arial;
+    }
+    p.sansserif{
+      text-align: center;
+      font-size: 70px;
+      font-family: sans-serif,"verdana";
+      color: white;
+    }
+
+     p.sansserif2{
+      text-align: center;
+      font-size: 50px;
+      font-family: sans-serif,"verdana";
+      color: white;
+    }
+    .btn {
+      padding: 15px 36px;
+      font-size: 25px;
+      text-align: center;
+      color:white;
+      cursor: pointer;
+      outline: none;
+      color: white;
+      background-color: rgb(216,0,21);
+      border: none;
+      border-radius: 5px;
+  	}
+  	.sec2{
+  		background-color: white;
+  		height: 100%;
+  		text-align: center;
+  		width: 100%;
+  		top: 0;
+  		background-size: cover;
+  		}
+
+  	.sec3{
+  		background-color: rgb(40,40,40);
+  		height: 100%;
+  		background-size: cover;
+  		top:0;
+  		border: 1px solid ;
+  		border-color: rgb(40,40,40);
+  	}
+
+  	.tulisan{
+  		color: white;
+  		font-size: 50px
+  		
+  	}
+
+  	.tulisan2{
+  		color: rgb(200,200,200);
+  		font-size: 25px
+  	}
+  	
+    ul.b{
+  		list-style-type: square;
+  	}
+
+    h1.ala{
+      color: black;
+    }
+    
+    input{
+      margin: 10px;
+      border-radius: 5px;
+      border: none;
+      padding: 12px 20px;
+
+
+    }
+
+    textarea{
+      border-radius: 4px;
+    }
+
+    button {
+      padding: 15px 36px;
+      font-size: 15px;
+      color:white;
+      cursor: pointer;
+      outline: none;
+      color: white;
+      background-color: rgb(216,0,21);
+      border: none;
+      border-radius: 5px;
+      text-align: right;
+      margin-left:570px;
+    }
+
+    footer{
+      padding: 50px;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+    }
+
+    
+
+
+

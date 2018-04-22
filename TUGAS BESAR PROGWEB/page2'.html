@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="proses2.css">
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $("#s1").show(function(){})
+      $("#s4").show(function(){})
+      $("#s2").hide(function(){})
+      $("#s3").hide(function(){})
+
+      $("#satu").click(function() {
+        $("#s1").show();
+        $("#s4").show();
+        $("#s2").hide();
+        $("#s3").hide();
+      });
+
+      $("#dua").click(function() {
+        $("#s2").show();
+        $("#s1").hide();
+        $("#s4").hide();
+        $("#s3").hide();
+      });
+
+      $("#tiga").click(function() {
+        $("#s3").show();
+        $("#s2").hide();
+        $("#s1").hide();
+        $("#s4").hide();
+      });
+    });
+
+
+  </script>
+  <style>
+  body {margin:0;}
+
+
+</style>
+</head>
+<body>
+ <ul>   
+  <li></li>
+  <li><a class="sansserif" href="TUGAS BESAR1.html">HOME</a></li>
+  <li></li>
+  <li></li>
+  <li style="float: left"><img src="MyTrip.png" height="70px" width="120px"></li>
+</ul>
+<!--/END NAVBAR-->
+<section>
+
+  <div class="sec2" id="indo">
+    <img src="sumbar.jpg" width="100%" height="100%"  align="center" id="s1">
+    <img src="sumbar2.jpg" width="100%" height="100%"  align="center" id="s2">
+    <img src="sumut.jpg" width="100%" height="100%"  align="center" id="s3">
+  </div>
+  <div class="kiri" align="center">
+    <input type="radio" name="place" id="satu">
+    <input type="radio" name="place" id="dua">
+    <input type="radio" name="place" id="tiga">
+  </div>
+</section>
+
+<section>
+  <div class="sec3">
+    <br><br><br><br><br><br><br><br><br>
+    <table border="0" cellspacing="0" style="color: white" align="center" >
+
+      <tr>
+        <td colspan="2" align="center">
+          <h1 class="tulisan" id="why">WHY WE MUST <br>TRAVELLING?</h1>  
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <h1 class="tulisan" id="s4" align="center">What is<br> the Advantage <br> of Traveling?</h1>
+        </td>
+     </tr>
+     <tr>
+       <td>
+         <h1 class="tulisan" id="s2" align="center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+         consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+         cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+         proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h1>
+       </td>
+     </tr>
+
+   </table>
+   <br><br><br><br><br><br><br><br><br>
+ </div>    
+</section>
+
+
+</body>
+</html>

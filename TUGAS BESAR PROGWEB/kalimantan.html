@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="proses2.css">
+<style>
+body {margin:0;}
+
+   
+    
+</style>
+</head>
+<body>
+   <ul>   
+    <li></li>
+    <li><a class="sansserif" href="TUGAS BESAR1.html">HOME</a></li>
+    <li></li>
+    <li></li>
+    <li style="float: left"><img src="MyTrip.png" height="70px" width="120px"></li>
+  </ul>
+  <!--/END NAVBAR-->
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <body>
+
+  <h2 class="w3-center">Manual Slideshow</h2>
+
+  <div class="w3-content w3-display-container">
+    <br><br><br><br><br>
+    <img class="mySlides" src="pulauberasbasah.jpg" style="width:1000px" height="500px">
+    <img class="mySlides" src="tanjungputing.jpg" style="width:1000px" height="500px">
+    <img class="mySlides" src="bukitbarst.jpg" style="width:1000px" height="500px">
+
+
+    <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+    <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+  </div>
+
+  <script>
+  var slideIndex = 1;
+  showDivs(slideIndex);
+
+  function plusDivs(n) {
+    showDivs(slideIndex += n);
+  }
+
+  function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    if (n > x.length) {slideIndex = 1}    
+    if (n < 1) {slideIndex = x.length}
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    x[slideIndex-1].style.display = "block";  
+}
+</script>
+  
+
+</body>
+</html>

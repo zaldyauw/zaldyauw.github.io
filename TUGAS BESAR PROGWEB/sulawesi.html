@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="proses2.css">
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $("#s1").show(function(){})
+      $("#s2").hide(function(){})
+      $("#s3").hide(function(){})
+
+      $("#satu").click(function() {
+        $("#s1").show();
+        $("#s2").hide();
+        $("#s3").hide();
+      });
+
+      $("#dua").click(function() {
+        $("#s2").show();
+        $("#s1").hide();
+        $("#s3").hide();
+      });
+
+      $("#tiga").click(function() {
+        $("#s3").show();
+        $("#s2").hide();
+        $("#s1").hide();
+      });
+    });
+
+
+  </script>
+  <style>
+  body {margin:0;}
+
+
+
+</style>
+</head>
+<body>
+ <ul>   
+  <li></li>
+  <li><a class="sansserif" href="TUGAS BESAR1.html">HOME</a></li>
+  <li></li>
+  <li></li>
+  <li style="float: left"><img src="MyTrip.png" height="70px" width="120px"></li>
+</ul>
+<!--/END NAVBAR-->
+<section>
+  <div class="sec3" id="indo">
+    <img class="mySlides" src="bunaken.jpg" id="s1">
+    <img class="mySlides" src="rotterdam.jpg" id="s2">
+    <img class="mySlides" src="taka.jpg" id="s3">
+  </div>
+  <div class="kiri" align="center">
+    <input type="radio" name="place" id="satu">
+    <input type="radio" name="place" id="dua">
+    <input type="radio" name="place" id="tiga">
+  </div>
+</section>
+<section>
+  <div class="sec3">
+    <table border="0" cellspacing="0" style="color: white" align="center" >
+
+      <tr>
+        <td colspan="2" align="center">
+          <h1 class="tulisan" id="why">WHY WE MUST <br>TRAVELLING?</h1>  
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <h1 class="tulisan" align="center">What is<br> the Advantage <br> of Traveling?</h1>
+        </td>
+        <td>
+          <h1 class="tulisan2" align="left">
+           1. The world is a book and those who do not travel read only one page <br>
+           2. Better to see something once than to hear about it a thousand time <br>
+           3. My favorite thing to do is to go where i’ve never been <br>
+           4. Just Go.
+         </h1>           
+       </td>
+     </tr>
+   </table>
+   <br><br><br><br><br><br><br><br><br>
+ </div>    
+</section>
+
+
+
+</body>
+</html>
